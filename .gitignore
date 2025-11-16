@@ -1,0 +1,28 @@
+# Ignoriere Godot-Import-Ordner (generierte Dateien)
+.import/
+
+# Godot 4: interner Projektordner
+.godot/
+/android/
+
+# Temporäre Dateien von Betriebssystemen
+.DS_Store
+Thumbs.db
+
+# Backup-Dateien von Editoren
+*~
+*.tmp
+
+# VS Code-Einstellungen (nur falls du sie nicht teilen willst)
+.vscode/
+
+# Rider / JetBrains / VS
+.idea/
+.vs/
+
+# C# / Mono (falls du C# in Godot nutzt – sonst egal)
+.mono/
+*.user
+*.suo
+*.csproj
+*.sln
