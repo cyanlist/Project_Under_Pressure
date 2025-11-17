@@ -6,4 +6,7 @@
 script = ExtResource("1_vorjj")
 id = &"alice"
 display_name = "Alice"
+sexuality = null
+start_affection = null
+thresholds = null
 metadata/_custom_type_script = "uid://bbpiceynu1cgn"

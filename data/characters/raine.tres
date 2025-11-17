@@ -6,4 +6,5 @@
 script = ExtResource("1_nvtts")
 id = &"raine"
 display_name = "Raine"
+sexuality = 1
 metadata/_custom_type_script = "uid://bbpiceynu1cgn"

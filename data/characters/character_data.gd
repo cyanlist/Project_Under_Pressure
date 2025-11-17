@@ -1,10 +1,13 @@
 extends Resource
 class_name CharacterData
 
+enum Sexuality {AROACE, AROMANTIC, ASEXUAL, DEMISEXUAL}
+
 @export var id: StringName
 @export var display_name: String
+@export var sexuality: Sexuality
 @export var start_affection: int = 50
-@export var max_affection: int = 100
-@export var min_affection: int = 0
+const max_affection: int = 100
+const min_affection: int = 0
 @export var portrait_texture: Texture2D
-@export var thresholds: Dictionary = {} # TODO: [ -20, 20, 50, 80 ]
+const thresholds: Array = [0, 20, 50, 80]
