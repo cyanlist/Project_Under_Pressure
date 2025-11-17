@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://ykin2ctq7jv2"]
+
+[ext_resource type="PackedScene" uid="uid://tpm164foyj67" path="res://scenes/characters/Character.tscn" id="1_hnoa0"]
+[ext_resource type="Script" uid="uid://c14odd31rypwb" path="res://scripts/characters/npc.gd" id="2_g2a5c"]
+
+[node name="Character" instance=ExtResource("1_hnoa0")]
+script = ExtResource("2_g2a5c")
+is_datable = true

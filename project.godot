@@ -12,3 +12,11 @@ config_version=5
 
 config/name="Project_Under_Pressure"
 config/features=PackedStringArray("4.5", "Forward Plus")
+
+[autoload]
+
+RelationshipManager="*res://autoload/relationship_manager.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gdUnit4/plugin.cfg")
